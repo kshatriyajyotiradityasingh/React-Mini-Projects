@@ -1,0 +1,106 @@
+.Slide{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black; 
+  padding: 15px;
+  border-radius:10px ;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+  cursor: pointer;
+  background: linear-gradient(315deg, rgb(137, 209, 220) 3%, rgb(131, 189, 247) 38%, rgb(81, 176, 248) 68%, rgb(52, 228, 244) 98%);
+  animation: gradient 15s ease-in-out infinite;
+  max-width: 800px;
+  max-height: 800px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease;
+  
+}
+
+.img{
+  max-width: 500px;
+  max-height:400px;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+
+  
+  
+}
+
+.Slide:hover{
+    transform: scale(1.015);
+  
+
+}
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  color: #010406;
+  height: 40px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.info{
+  color: #000203;
+  background-color: rgb(119, 206, 219);
+  border: 0.5px solid rgb(87, 228, 228); 
+  border-radius:10px ;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+ 
+}
+
+
+
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #9dd5ec;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px, rgba(0, 0, 0, .14) 0 6px 10px 0, rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #000102;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1), opacity 15ms linear 30ms, transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform, opacity;
+  z-index: 0;
+  margin-left: 5px;
+  margin-bottom : 5px;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+
+
+
+
+

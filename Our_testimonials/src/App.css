@@ -1,0 +1,17 @@
+.App {
+  margin: -21px;
+  text-align: center;
+  background:transparent ;
+  height: 120vh;
+}
+
+.testimonial{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  
+}
+
+
+
+
